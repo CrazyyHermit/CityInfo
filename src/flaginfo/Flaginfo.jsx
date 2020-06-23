@@ -1,15 +1,18 @@
 import React, {Component} from "react"
 
-class FlagInfo extends Component {
-
+class Flaginfo extends Component {
+    constructor() {
+        super();
+        this.state = {
+            cityInfo: {name:null}
+        }
+    }
 
     render() {
         return(
-            <div>
-                <h1>HELLO</h1>
-            </div>
+            <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
         )
     }
 }
 
-export default FlagInfo
+export default Flaginfo
