@@ -36,6 +36,8 @@ class Flags extends Component{
                                         {item.name}
                                     </p>
                                     <a id="flagButton" href="#" onClick={(e) => {
+                                        document.querySelector("#Flaginfo").removeAttribute("hidden")
+                                        document.querySelector("#container").hidden = "true";
                                         return (
                                             e.preventDefault(),
                                             console.log("hello")

@@ -10,7 +10,9 @@ class Flaginfo extends Component {
 
     render() {
         return(
-            <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
+            <div id="Flaginfo" hidden="true">
+                <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
+            </div>
         )
     }
 }
